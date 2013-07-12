@@ -1,7 +1,7 @@
 {
   "name": "handlebars-helper-partials",
   "description": "Handlebars helper for including partials, with improvements over native partial handling, such as file globbing and the ability to override context.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/assemble/handlebars-helper-partials",
   "author": {
     "name": "Jon Schlinkert",
