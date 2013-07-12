@@ -1,0 +1,43 @@
+{
+  "name": "handlebars-helper-glob-partials",
+  "description": "Handlebars helper for including partials, with improvements over native partial handling, such as file globbing and the ability to override context.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/handlebars-helper-partials",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/assemble/handlebars-helper-partials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/assemble/handlebars-helper-partials/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/assemble/handlebars-helper-partials/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "helpers/helper-globpartials.js",
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "assemble": "~0.4.0",
+    "grunt": "~0.4.1",
+    "grunt-prettify": "~0.1.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "build",
+    "site generator",
+    "component generator",
+    "blog generator",
+    "handlebars",
+    "templates"
+  ]
+}
