@@ -14,9 +14,9 @@
 
     /*
      * Add one or more partials using optional minimatch patterns.
-     * Usage: {{ globpartials 'partials/**' }}
+     * Usage: {{ partials 'partials/**' }}
      */
-    Handlebars.registerHelper("globpartials", function(search) {
+    Handlebars.registerHelper("partials", function(search) {
       var values = Array.prototype.slice.call(arguments, 1);
       var opts = values.pop();
       var rtn = '';
