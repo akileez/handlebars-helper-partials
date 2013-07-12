@@ -3,18 +3,18 @@
     var assembleOptions = options;
     var grunt     = require('grunt');
     var _         = grunt.util._;
-    var minimatch = require('minimatch');
+    var minimatch = grunt.file.minimatch;
     var path      = require("path");
 
     var matchPartials = function(src, search) {
-      var files = grunt.files.expand(src);
+      var files = grunt.file.expand(src);
       var partials = files.filter(minimatch.filter(search));
       return partials;
     };
 
     /*
      * Add one or more partials using optional minimatch patterns.
-     * Usage: {{ partials 'partials/**' }}
+     * Usage: {{ partials "partials/*" }}
      */
     Handlebars.registerHelper("partials", function(search) {
       var values = Array.prototype.slice.call(arguments, 1);

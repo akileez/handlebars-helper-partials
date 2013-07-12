@@ -25,10 +25,10 @@
     "test": "grunt assemble"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-clean": "~0.4.1",
     "assemble": "~0.4.0",
     "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
     "grunt-prettify": "~0.1.5"
   },
   "keywords": [
